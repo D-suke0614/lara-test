@@ -25,4 +25,4 @@ Route::get('/seedtech/seed', function () {
     return view('seedtech.seed');
 });
 
-Route::get('/tweets', 'TweetsController@index')->name('tweets.index');
+Route::get('/tweets', 'TweetController@index')->name('tweets.index');
