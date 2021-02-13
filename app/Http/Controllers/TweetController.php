@@ -16,6 +16,6 @@ class TweetController extends Controller
         // dd($tweet);
         // Laravelのデバック関数
         // Tweetsテーブルのid=1を取得せよ
-        return view('tweets.index');
+        return view('tweets.index', ['tweet'=>$tweet]);
     }
 }

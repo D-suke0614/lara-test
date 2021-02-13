@@ -7,5 +7,7 @@
 </head>
 <body>
   <h1>Twitterを作るって！？</h1>
+  <h2>{{ $tweet->title }}</h2>
+  <h3>{{$tweet->body}}</h3>
 </body>
 </html>
