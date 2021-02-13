@@ -26,3 +26,7 @@ Route::get('/seedtech/seed', function () {
 });
 
 Route::get('/tweets', 'TweetController@index')->name('tweets.index');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
